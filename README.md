@@ -1,20 +1,51 @@
-## `【大灰狼独家优化】（IPV6大全版  6.6 内核【带DOCKER】`
-#### 🚩 源码拉取`coolsnowwolf` `Lienol` `immortalwrt` `x-wrt` `openwrt` 自行选择编译
-- 大灰狼编译库`X86-R2C-R2S-R4S-R5S-N1-小米MI`等多系列全部适配OTA自动升级
-- 默认IP地址：`192.168.2.1`
+## `【ZUIKE-OpenWrt-2024】（IPV6【带DOCKER】云编译`
+#### 🚩 ZUIKE-OpenWrt| [醉客网](https://zuike7.com)
+- 编译库`X86系列适配OTA自动升级
+- 默认IP地址：`192.168.5.1`
 - 账户：`root`   密码：`空`
+
+### 2024年更新OpenWrt_x86_64固件
+<br>
+<summary>🆘 2024全新插件库更新  【重要提示】
+<br />
+<br>
+
+1.因精力有限，不提供任何技术支持、使用教程;
+
+2.仅限完全行为能力人使用本固件，使用本固件即视为使用者的自愿行为;
+
+3.本人不保证固件的普适性，不保证无bug，不保证绝对的安全稳定;
+
+4.本人不对任何人因使用本固件所遭受的任何理论或实际的损失承担责任。
+
+---
+
+<br>
+<summary>✴️加入固件更新/反馈通知频道</summary>
+<br>
+加入固件反馈频道(https://t.me/+nY18Q9dltBhmNTQ1)  🏠Telegram群
+<br />
+  我会定时对收集的信息+内核版本及固件版本进行一次更新,并对需要更新的功能一次大升级
+
+<br>
+  固件使用问题第一时间留言!稳定更新[达到每个版本都可养老]
+<br />
+
+编译状态：
+
+<a href="https://github.com/zuifengguai/ZUIKE-OpenWrt/actions/workflows/OpenWrt_Build_x64_all.yml">
+    <img src="https://github.com/gxnas/OpenWrt_Build_x64_all/actions/workflows/OpenWrt_Build_x64_all.yml/badge.svg?style=flat" />
+</a>
+
+</br>
+<a href="https://github.com/zuifengguai/ZUIKE-OpenWrt/actions/workflows/compile.yml">
+    <img src="https://github.com/gxnas/OpenWrt_Build_x64_all/actions/workflows/compile.yml/badge.svg?style=flat" />
+</a>
  
-#### 🚩 点击下表中 [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?style=flat&logo=hack-the-box)](https://github.com/shidahuilang/openwrt/releases) 即可跳转到该设备固件下载页面
+#### 🚩 点击下表中 [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?style=flat&logo=hack-the-box)](https://github.com/zuifengguai/ZUIKE-OpenWrt/releases) 即可跳转到该设备固件下载页面
 | 平台+设备名称 | 固件编译状态 | 配置文件 | 固件下载 |
 | :-------------: | :-------------: | :-------------: | :-------------: |
-| [![](https://img.shields.io/badge/openwrt-X86_64-32C955.svg?logo=openwrt)](https://github.com/shidahuilang/openwrt/blob/main/.github/workflows/Lede.yml) | [![](https://github.com/shidahuilang/openwrt/actions/workflows/Lede.yml/badge.svg)](https://github.com/shidahuilang/openwrt/actions/workflows/Lede.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/shidahuilang/openwrt/blob/main/build/Lede/seed/x86_64) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/shidahuilang/openwrt/releases/tag/Update-x86) |
-| [![](https://img.shields.io/badge/openwrt-R2C-32C955.svg?logo=openwrt)](https://github.com/shidahuilang/openwrt/blob/main/.github/workflows/Lede.yml) | [![](https://github.com/shidahuilang/openwrt/actions/workflows/Lede.yml/badge.svg)](https://github.com/shidahuilang/openwrt/actions/workflows/Lede.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/shidahuilang/openwrt/blob/main/build/Lede/seed/r2c) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/shidahuilang/openwrt/releases/tag/Update-rockchip) |
-| [![](https://img.shields.io/badge/openwrt-R2S-32C955.svg?logo=openwrt)](https://github.com/shidahuilang/openwrt/blob/main/.github/workflows/Lede.yml) | [![](https://github.com/shidahuilang/openwrt/actions/workflows/Lede.yml/badge.svg)](https://github.com/shidahuilang/openwrt/actions/workflows/Lede.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/shidahuilang/openwrt/blob/main/build/Lede/seed/r2s) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/shidahuilang/openwrt/releases/tag/Update-rockchip) |
-| [![](https://img.shields.io/badge/openwrt-R4S-32C955.svg?logo=openwrt)](https://github.com/shidahuilang/openwrt/blob/main/.github/workflows/Lede.yml) | [![](https://github.com/shidahuilang/openwrt/actions/workflows/Lede.yml/badge.svg)](https://github.com/shidahuilang/openwrt/actions/workflows/Lede.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/shidahuilang/openwrt/blob/main/build/Lede/seed/r4s) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/shidahuilang/openwrt/releases/tag/Update-rockchip) |
-| [![](https://img.shields.io/badge/openwrt-R5S-32C955.svg?logo=openwrt)](https://github.com/shidahuilang/openwrt/blob/main/.github/workflows/Lede.yml) | [![](https://github.com/shidahuilang/openwrt/actions/workflows/Lede.yml/badge.svg)](https://github.com/shidahuilang/openwrt/actions/workflows/Lede.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/shidahuilang/openwrt/blob/main/build/Lede/seed/r5s) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/shidahuilang/openwrt/releases/tag/Update-rockchip) |
-| [![](https://img.shields.io/badge/openwrt-N1-32C955.svg?logo=openwrt)](https://github.com/shidahuilang/openwrt/blob/main/.github/workflows/Lede.yml) | [![](https://github.com/shidahuilang/openwrt/actions/workflows/Lede.yml/badge.svg)](https://github.com/shidahuilang/openwrt/actions/workflows/Lede.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/shidahuilang/openwrt/blob/main/build/Lede/seed/n1) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/shidahuilang/openwrt/releases/tag/20230723055753) |
-| [![](https://img.shields.io/badge/openwrt-K2P-32C955.svg?logo=openwrt)](https://github.com/shidahuilang/openwrt/blob/main/.github/workflows/Lede.yml) | [![](https://github.com/shidahuilang/openwrt/actions/workflows/Lede.yml/badge.svg)](https://github.com/shidahuilang/openwrt/actions/workflows/Lede.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/shidahuilang/openwrt/blob/main/build/Lede/seed/phicomm_k2p) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/shidahuilang/openwrt/releases/tag/a20230723075212) |
-
+| [![](https://img.shields.io/badge/openwrt-X86_64-32C955.svg?logo=openwrt)](https://github.com/zuifengguai/ZUIKE-OpenWrt/blob/main/.github/workflows/Lede.yml) | [![](https://github.com/shidahuilang/openwrt/actions/workflows/Lede.yml/badge.svg)](https://github.com/zuifengguai/ZUIKE-OpenWrt/actions/workflows/Lede.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/zuifengguai/ZUIKE-OpenWrt/blob/main/build/Lede/seed/x86_64) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/zuifengguai/ZUIKE-OpenWrt/releases/tag/Update-x86) |
 
 - ================================================================
 - 首先需要打开 Openwrt 主页,点击系统-TTYD 命令窗,或者使用```putty```或者```openwrt```后台luci插件在线更新 
@@ -38,12 +69,6 @@ cd openwrt && make menuconfig
 
 - TG通知```Settings```->```Secrets```中添加个名字为```TELEGRAM_BOT_TOKEN```和```TELEGRAM_CHAT_ID```
 
-## 自动更新固件
-![img.png](img/img.png)
-![1.png](img/1.png)
-![2.png](img/2.png)
-![img2.png](img/img2.png)
-![img3.png](img/img3.png)
 
 [![Stargazers over time](https://starchart.cc/shidahuilang/openwrt.svg)](https://starchart.cc/shidahuilang/openwrt)
  ### 鸣谢！
@@ -54,5 +79,22 @@ cd openwrt && make menuconfig
 [`immortalwrt`]
 [`P3TERX`]
 [`Hyy2001X`]
+[`coolsnowwolf`]
+[`Lienol`]
+[`immortalwrt`]
+[`openwrt`]
+[`x-wrt`]
+[`P3TERX`]
+[`Hyy2001X`]
+[`dhxh`]
+[`ophub`]
+[`nicholas-opensource`]
+[`hx210`]
+[`hyird`]
+[`World Peace`]
+[`klever1988`]
+[`actions`]
+[`svenstaro`]
+[`jerrykuku`]
 
 
