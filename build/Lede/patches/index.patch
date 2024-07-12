@@ -21,7 +21,5 @@ index d4f56c5..d419964 100644
 +                                <td id="cpr">
 +<input type="button" class="cbi-button cbi-button-apply" value="<%:电报TG群%> " onclick="window.open('https://t.me/+nY18Q9dltBhmNTQ1')" />
 +<input type="button" class="cbi-button cbi-button-apply" value="<%:固件出处%> " onclick="window.open('https://zuike7.com/document/549.html')" />
-+<input type="button" class="cbi-button cbi-button-apply" value="<%:问题反馈%> " onclick="window.open('https://0DkcHoI.wnform.com/f/jMpE9gt')" />
-+<input type="button" class="cbi-button cbi-button-apply" value="<%:使用教程%> " onclick="window.open('https://zuifengguai.gitbook.io/openwrtx7s')" />
  	</table>
  </fieldset>
