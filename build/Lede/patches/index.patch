@@ -19,7 +19,7 @@ index d4f56c5..d419964 100644
 +</fieldset>
 +<fieldset class="cbi-section">
 +                                <td id="cpr">
-+<input type="button" class="cbi-button cbi-button-apply" value="<%:更新教程%> " onclick="window.open('https://github.com/shidahuilang/openwrt')" />
-+<input type="button" class="cbi-button cbi-button-apply" value="<%:固件下载%> " onclick="window.open('https://github.com/shidahuilang/openwrt/releases')" />
++<input type="button" class="cbi-button cbi-button-apply" value="<%:电报TG群%> " onclick="window.open('https://t.me/+nY18Q9dltBhmNTQ1')" />
++<input type="button" class="cbi-button cbi-button-apply" value="<%:固件出处%> " onclick="window.open('https://zuike7.com/document/549.html')" />
  	</table>
  </fieldset>
